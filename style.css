@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 300px;
+    margin-top: 20vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.display {
+    font-size: 2rem;
+    font-weight: 600;
+    align-self: flex-end;
+    padding: 16px;
+}
+
+.container > div {
+    display: flex;
+    justify-content: stretch;
+}
+
+.container > div > button {
+    flex: 1;
+}
+
+.container > .fifthRow > .operand {
+    flex: 3;
+} 
+
+.container > .fifthRow > div {
+    flex: 1;
+} 
+
+button {
+    padding: 16px;
+    margin: 2px;
+    font-size: 1rem;
+    font-weight: 600;
+}

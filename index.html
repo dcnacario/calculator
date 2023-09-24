@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="display">0</div>
+        <div class="firstRow">
+            <button type="button" value="AC" class="backspace">AC</button>
+            <button type="button" value="posneg" class="operator">+ / -</button>
+            <button type="button" value="%" class="operator">%</button>
+            <button type="button" value="/" class="operator">/</button>
+        </div>
+        <div class="secondRow">
+            <button type="button" value="7" class="operand">7</button>
+            <button type="button" value="8" class="operand">8</button>
+            <button type="button" value="9" class="operand">9</button>
+            <button type="button" value="*" class="operator">*</button>
+        </div>
+        <div class="thirdRow">
+            <button type="button" value="4" class="operand">4</button>
+            <button type="button" value="5" class="operand">5</button>
+            <button type="button" value="6" class="operand">6</button>
+            <button type="button" value="-" class="operator">-</button>
+        </div>
+        <div class="fourthRow">
+            <button type="button" value="1" class="operand">1</button>
+            <button type="button" value="2" class="operand">2</button>
+            <button type="button" value="3" class="operand">3</button>
+            <button type="button" value="+" class="operator">+</button>
+        </div>
+        <div class="fifthRow">
+            <button type="button" value="0" class="operand">0</button>
+            <button type="button" value="dot" class="dot">.</button>
+            <button type="button" value="=" class="equals">=</button>
+        </div>
+    </div>
 </body>
 </html>
